@@ -17,6 +17,34 @@
   padding: 0 48px;
 }
 
+.media__row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.media__column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.media__data {
+  margin-top: 16px;
+}
+
+.home__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-gray{
+  color: rgb(136, 136, 136);
+}
+
+
+
 /* Burger Menu */
 
 .burger__menu {
@@ -100,6 +128,39 @@ nav {
   background-color: #888888;
 }
 
+#nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 32px 24px;
+  min-height: 20vh;
+  background-color: #888888;
+}
+
+.home__img--wrapper {
+  width: 100%;
+  height: 500px;
+  margin-top: 48px;
+}
+
+.home__row--title {
+  color: rgb(136, 136, 136);
+}
+
+.home__row--sub-title {
+  color: rgb(136, 136, 136);
+  margin-top: 16px;
+}
+
+.home__img {
+  height: 400px;
+  width: 400px;
+}
+
+.search__margin{
+  margin-top: 16px;
+}
+
 .nav__img--wrapper {
   height: 50%;
 }
@@ -126,6 +187,7 @@ nav {
   align-items: center;
   background-color: white;
   border-radius: 9999px;
+  border: 2px solid lightgray;
 }
 
 .search__bar--input {
